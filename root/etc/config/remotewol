@@ -1,0 +1,13 @@
+
+config settings 'settings'
+	option port '80'
+
+config devices
+	option ip '192.168.5.2'
+	option mac '18:C0:4D:47:7E:43'
+	option command 'cmd1'
+
+config devices
+	option ip '192.168.5.3'
+	option mac '6C:1F:F7:10:76:9A'
+	option command 'cmd2'

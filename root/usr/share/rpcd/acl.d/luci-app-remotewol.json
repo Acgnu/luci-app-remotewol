@@ -1,0 +1,11 @@
+{
+	"luci-app-remotewol": {
+		"description": "Grant UCI access for luci-app-remotewol",
+		"read": {
+			"uci": [ "remotewol" ]
+		},
+		"write": {
+			"uci": [ "remotewol" ]
+		}
+	}
+}
